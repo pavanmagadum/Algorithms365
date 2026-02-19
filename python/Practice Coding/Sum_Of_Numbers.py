@@ -32,3 +32,23 @@ numbers = [20, 30, 40, 50]
 result = sumOfNumbers(numbers)
 print(f"Sum of number in list is : {result}")
 
+
+# sum of numbers using while loop
+a = int(input("Enter a number: "))
+sum = 0
+
+while a > 0:
+    sum += a % 10
+    a = a // 10
+print(f"Sum of digits is: {sum}")
+
+#sum of numbers using for loop
+sum = 0
+number = [1, 2, 6, 4]
+count = 0
+for index in number:
+    count = count + 1
+    sum = sum + index
+   
+print(f"count :{count}")
+print(f"sum :{sum}")
