@@ -21,3 +21,4 @@ print(text)
 input = "Pavan"
 reverce_string = input[::-1]
 print(reverce_string)
+print(f"Reversed string is: {reverce_string}")
